@@ -2,12 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  * assign a random number to the variable n on each execution
- * if n is greater than 0: is positive, if n is 0: is zero
- * if n is less than 0: it is negative, followed by a new line
- * return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
