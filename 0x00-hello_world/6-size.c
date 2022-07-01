@@ -3,10 +3,10 @@
 /**
  * main - entry point
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
-int main (void)
+int main(void)
 {
 	int a;
 	long int b;
