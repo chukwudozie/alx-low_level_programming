@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /*
- * main - assign a random number to the variable n on each execution
+ * main - Entry point
+ * assign a random number to the variable n on each execution
  * if n is greater than 0: is positive, if n is 0: is zero
  * if n is less than 0: it is negative, followed by a new line
- * return: 0
+ * return: Always 0 (success)
  */
 
 int main(void)
