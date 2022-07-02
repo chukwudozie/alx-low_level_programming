@@ -14,11 +14,13 @@ int main(void)
 	while (small <= 'z')
 	{
 		putchar(small);
+		small++;
 	}
 
 	while (big <= 'Z')
 	{
 		putchar(big);
+		big++;
 	}
 	putchar('\n');
 
