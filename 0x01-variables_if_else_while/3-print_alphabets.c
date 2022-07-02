@@ -9,13 +9,12 @@
 int main(void)
 {
 	char small = 'a';
+	char big = 'A';
 
 	while (small <= 'z')
 	{
 		putchar(small);
 	}
-
-	char big = 'A';
 
 	while (big <= 'Z')
 	{
