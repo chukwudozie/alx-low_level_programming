@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ * Desctiption: print lowercase letters excluding q and e
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		if (letter != 'q' && letter != 'e')
+		{
+			putchar(letter);
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
+}
