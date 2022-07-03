@@ -8,17 +8,29 @@
 
 int main(void)
 {
-	char first = '0';
-	char second = '1';
+	int first = 0;
+	int second = 0;
 
-	while (first <= '9')
+	while (second <= 9)
 	{
-		putchar(first);
-		putchar(second);
-		putchar(',');
-		putchar(' ');
-		first++;
+		while (first <= 9)
+		{
+			if (first != second && first < second)
+			{
+				putchar('0' + second);
+				putchar('0' + first);
+				if (first + second != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			first++;
+		}
+		second++;
 	}
+
+	putchar('\n');
 
 	return (0);
 }
