@@ -15,7 +15,8 @@ int main(void)
 	{
 		putchar(first);
 		putchar(second);
-		putchar(', ');
+		putchar(',');
+		putchar(' ');
 		first++;
 	}
 
