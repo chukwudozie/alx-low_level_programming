@@ -8,11 +8,13 @@
 
 int main(void)
 {
-	int first = 0;
+	int first;
 	int second = 0;
 
 	while (second <= 9)
 	{
+		first = 0;
+
 		while (first <= 9)
 		{
 			if (first != second && second < first)
