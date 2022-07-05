@@ -2,6 +2,7 @@
 
 /**
  * _islower - check for lower case alphabets
+ * @character: input character to check the case
  * Return: 0 or 1
  */
 
