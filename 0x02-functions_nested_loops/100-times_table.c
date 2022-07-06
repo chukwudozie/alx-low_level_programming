@@ -32,7 +32,9 @@ void print_times_table(int n)
 			}
 			else if (product < 100)
 			{
-				printf(" %d%d", product / 10, product % 10);
+				_putchar(' ');
+				_putchar('0' + product / 10);
+				_putchar('0' + product % 10);
 			}
 			else
 			{
