@@ -15,9 +15,7 @@ void print_times_table(int n)
 		return;
 	while (a <= n)
 	{
-		b = 0;
-
-		while (b <= n)
+		for (b = 0; b <= n; b++)
 		{
 			product = a * b;
 			if	 (b == 0)
@@ -42,13 +40,11 @@ void print_times_table(int n)
 				_putchar('0' + (product - 100) / 10);
 				_putchar ('0' + product % 10);
 			}
-
 			if (b < n)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
-			b++;
 		}
 		_putchar('\n');
 		a++;
