@@ -8,5 +8,6 @@
 
 int _abs(int n)
 {
-	return (_abs(n));
+	abs(n);
+	return (abs(n));
 }
