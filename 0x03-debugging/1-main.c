@@ -2,7 +2,7 @@
 
 /**
  * main - causes an infinite loop
- * Retrun: 0
+ * Return: 0
  */
 
 int main(void)
@@ -13,10 +13,10 @@ int main(void)
 
 	i = 0;
 
-	//while (i < 10)
-//	{
-//		putchar(i);
-//	}
+	/*while (i < 10)*/
+	/*{*/
+		putchar(i);
+	/*}*/
 
 	prinff("Infinite loop avoided! \\o/\n");
 
