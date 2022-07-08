@@ -10,6 +10,8 @@ void print_square(int n)
 {
 	int m;
 
+	m = n;
+
 	if (n <= 0)
 	{
 		_putchar('\n');
@@ -17,15 +19,14 @@ void print_square(int n)
 
 	while (n > 0)
 	{
-		m = n;
 
 		while (m > 0)
 		{
 			_putchar('#');
 			m--;
 		}
-
 		n--;
+		_putchar('\n');
 	}
 	_putchar('\n');
 }
