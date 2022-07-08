@@ -8,11 +8,11 @@
 
 void print_numbers(void)
 {
-	char num = '0';
+	int num = 0;
 
 	while (num < 10)
 	{
-		_putchar(num);
+		_putchar('0' + num);
 	}
 	_putchar('\n');
 }
