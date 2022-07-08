@@ -27,3 +27,4 @@ void print_square(int n)
 		_putchar('\n');
 		m++;
 	}
+}
