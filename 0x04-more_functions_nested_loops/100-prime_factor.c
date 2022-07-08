@@ -7,19 +7,15 @@
 
 int main(void)
 {
-	long int x = 612852475143;
-	long int py;
+	unsigned long int y, x = 612852475143;
 
-	for (py = 2; py < x; py++)
+	for (y = 3; y < 500000; y = y + 2)
 	{
-		if (x % py == 0)
-		{
-			x = x / py;
-		}
+		while ((x % y == 0) && (x != y))
+			x /= y;
 	}
 
-	printf("%d\n", py);
+	printf("%lu\n", x);
 
 	return (0);
-
 }
