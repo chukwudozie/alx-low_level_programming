@@ -5,11 +5,11 @@
  * @n: input parameter
  * Return: Updated value
  */
-
+iefr
 void reset_to_98(int *n)
 {
 	int p;
 
 	n = &p;
-	p = 98;
+	*n = 98;
 }
