@@ -15,13 +15,21 @@ void puts_half(char *s)
 	{
 		length++;
 	}
-	counter = length - 1;
-
-	while (counter >= length / 2)
+	if (length % 2 == 0)
 	{
-		_putchar(s[counter]);
-		counter--;
+		for (counter = (length / 2); counter < length; counter++)
+		{
+			_putchar(s[counter]);
+		}
 	}
+	else
+	{
+		for (counter = ((length + 1) / 2); counter < length; counter++)
+		{
+			_putchar(s[counter]);
+		}
+	}
+
 
 	_putchar('\n');
 }
