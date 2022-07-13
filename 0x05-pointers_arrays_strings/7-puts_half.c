@@ -15,11 +15,12 @@ void puts_half(char *s)
 	{
 		length++;
 	}
+	counter = length - 1;
 
-	while (counter <= length / 2)
+	while (counter >= length / 2)
 	{
 		_putchar(s[counter]);
-		counter++;
+		counter--;
 	}
 
 	_putchar('\n');
