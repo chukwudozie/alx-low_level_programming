@@ -18,10 +18,7 @@ void print_diagsums(int *a, int size)
 		secondsum += *(a + (size * i + size - 1 - i));
 		i++;
 	}
-
-	_putchar(firstsum + '0');
-	_putchar(' ');
-	_putchar(secondsum + '0');
-	_putchar('\n');
+	printf("%d, ", firstsum);
+	printf("%d\n", secondsum);
 
 }
