@@ -15,7 +15,6 @@ unsigned int _strspn(char *s, char *accept)
 	while (*s++)
 	{
 		while (*accept++)
-		{
 			if (*(s - 1) == *(accept - 1))
 			{
 				num++;
@@ -26,7 +25,6 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			accept = d;
 
-		}
 	}
 
 	return (num);
