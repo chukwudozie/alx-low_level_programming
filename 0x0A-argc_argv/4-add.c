@@ -13,9 +13,10 @@ int main(int argc, char *argv[])
 {
 	int count, sum = 0;
 
-	if (argc < 2)
+	if (argc == 2)
 	{
 		printf("%d\n", sum);
+		return (1);
 	}
 
 	for (count = 0; count < argc; count++)
