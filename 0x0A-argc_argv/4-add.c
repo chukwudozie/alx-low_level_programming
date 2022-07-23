@@ -16,9 +16,10 @@ int main(int argc, char *argv[])
 	if (argc == 1)
 	{
 		printf("%d\n", sum);
+		return (0);
 	}
 
-	for (count = 0; count < argc; count++)
+	for (count = 0; argv[argc][count]; count++)
 	{
 		if (!(isdigit(argv[argc][count])))
 		{
