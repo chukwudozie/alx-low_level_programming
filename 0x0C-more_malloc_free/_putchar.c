@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <unistd.h>
 
 /**
  * _putchar - prints an input character to the STDOUT
