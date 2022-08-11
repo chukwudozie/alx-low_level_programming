@@ -13,8 +13,8 @@ size_t print_list(const list_t *h)
 
 	while (input != NULL)
 	{
-		printf("[%d] %s\n", input->len, input->str != NULL ? c->str : "(nil)");
-		c = c->next;
+		printf("[%d] %s\n", input->len, input->str != NULL ? input->str : "(nil)");
+		input = input->next;
 		nodesCount++;
 	}
 
