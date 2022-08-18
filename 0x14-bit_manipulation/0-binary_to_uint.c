@@ -20,7 +20,7 @@ unsigned int binary_to_uint(const char *b)
 		else if (*b == '0')
 			k <<= 1;
 		else
-			break;
+			k = 0;
 	}
 	return (k);
 }
