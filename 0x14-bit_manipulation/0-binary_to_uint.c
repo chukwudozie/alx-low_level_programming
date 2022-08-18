@@ -10,6 +10,9 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int k;
 
+	if (!b)
+		return (0);
+
 	for (k = 0; *b; b++)
 	{
 		if (*b == '1')
