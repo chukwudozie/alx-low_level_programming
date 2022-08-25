@@ -10,11 +10,8 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
-	size_t str_length;
 	ssize_t length = 0;
 
-	for (str_length = 0; text_content[str_length]; str_length++)
-		;
 	if (filename == NULL)
 		return (-1);
 
